@@ -1,8 +1,7 @@
 # djkstra using c++
 
 How to execute the program:
-1. Program contains two files Corrosion detection and Red_Particles.
-2. Corrosion detection imports Red_particles. To import Red_particles change the sys.path.append to the current folder of Red_particles.
-3. Change the location of train_loc and validation_loc to the current folder location. These folder contains the test and validation data set of images.
-4. Enter the location of test image in input_path.
-5. Execute Corrosion detection.
+1. Assuming that the corpus text file is in the same directory where the python program file is located.
+2. If the corpus text file is not in the same directory where program exists, enter the path of corpus text file in the program file (hardcode)
+3. Execute the program by using the following command,
+	python (filename with complete path)
